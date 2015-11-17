@@ -16,7 +16,7 @@
 #' 
 #' @name mutations
 #' @rdname mutations
-#' @aliases ACC.mutations,BLCA.mutations,BRCA.mutations,CESC.mutations,CHOL.mutations,COAD.mutations,GBM.mutations,HNSC.mutations,KICH.mutations,KIPAN.mutations,KIRC.mutations,KIRP.mutations,LAML.mutations,LGG.mutations,LIHC.mutations,LUAD.mutations,LUSC.mutations,OV.mutations,PAAD.mutations,PCPG.mutations,PRAD.mutations,READ.mutations,SARC.mutations,SKCM.mutations,STAD.mutations,STES.mutations,TGCT.mutations,THCA.mutations,UCEC.mutations,UCS.mutations,UVM.mutations
+#' @aliases ACC.mutations,BLCA.mutations,BRCA.mutations,CESC.mutations,CHOL.mutations,COAD.mutations,COADREAD.mutations,DLBC.mutations,GBMLGG.mutations,GBM.mutations,HNSC.mutations,KICH.mutations,KIPAN.mutations,KIRC.mutations,KIRP.mutations,LAML.mutations,LGG.mutations,LIHC.mutations,LUAD.mutations,LUSC.mutations,OV.mutations,PAAD.mutations,PCPG.mutations,PRAD.mutations,READ.mutations,SARC.mutations,SKCM.mutations,STAD.mutations,STES.mutations,TGCT.mutations,THCA.mutations,UCEC.mutations,UCS.mutations,UVM.mutations
 #'
 "ACC.mutations"
 #' @name mutations
@@ -44,6 +44,21 @@
 #' @format NULL
 #' 
 "COAD.mutations"
+#' @name mutations
+#' @rdname mutations
+#' @format NULL
+#' 
+"COADREAD.mutations"
+#' @name mutations
+#' @rdname mutations
+#' @format NULL
+#'
+"DLBC.mutations"
+#' @name mutations
+#' @rdname mutations
+#' @format NULL
+#'
+"GBMLGG.mutations"
 #' @name mutations
 #' @rdname mutations
 #' @format NULL
