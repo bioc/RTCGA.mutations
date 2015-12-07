@@ -1,6 +1,6 @@
 ---
 title: "Using `RTCGA` package to download mutations data that are included in `RTCGA.mutations` package"
-subtitle: "Date of datasets release: 2015-08-21"
+subtitle: "Date of datasets release: 2015-11-01"
 author: "Marcin Kosiński"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
@@ -50,7 +50,7 @@ library(RTCGA)
 checkTCGA('Dates')
 ```
 
-Version 20150821.1.0 of `RTCGA.mutations` package contains mutations datasets which were released `2015-08-21`. They were downloaded in the following way (which is mainly copied from [http://marcinkosinski.github.io/RTCGA/](http://marcinkosinski.github.io/RTCGA/):
+Version 20151101.0.0 of `RTCGA.mutations` package contains mutations datasets which were released `2015-11-01`. They were downloaded in the following way (which is mainly copied from [http://rtcga.github.io/RTCGA/](http://rtcga.github.io/RTCGA/):
 
 ## Available cohorts
 
@@ -66,7 +66,7 @@ For all cohorts the following code downloads the mutations data.
 ## Downloading mutations files
 ```{r, eval=FALSE}
 # dir.create( "data2" ) # name of a directory in which data will be stored
-releaseDate <- "2015-08-21"
+releaseDate <- "2015-11-01"
 sapply( cohorts, function(element){
 tryCatch({
 downloadTCGA( cancerTypes = element, 
@@ -164,16 +164,16 @@ grep( "mutations", ls(), value = TRUE) %>%
    # ...	Unquoted names of existing objects to save
    devtools::use_data(ACC.mutations,BLCA.mutations,BRCA.mutations,
    									 CESC.mutations,CHOL.mutations,COAD.mutations,
-   									 COADREAD.mutations,DLBC.mutations,GBMLGG.mutations,
-   									 GBM.mutations,HNSC.mutations,KICH.mutations,
-   									 KIPAN.mutations,KIRC.mutations,KIRP.mutations,
-   									 LAML.mutations,LGG.mutations,LIHC.mutations,
-   									 LUAD.mutations,LUSC.mutations,OV.mutations,
-   									 PAAD.mutations,PCPG.mutations,PRAD.mutations,
-   									 READ.mutations,SARC.mutations,SKCM.mutations,
-   									 STAD.mutations,STES.mutations,TGCT.mutations,
-   									 THCA.mutations,UCEC.mutations,UCS.mutations,
-   									 UVM.mutations,
+   									 COADREAD.mutations,DLBC.mutations,ESCA.mutations,
+   									 GBMLGG.mutations,GBM.mutations,HNSC.mutations,
+   									 KICH.mutations,KIPAN.mutations,KIRC.mutations,
+   									 KIRP.mutations,LAML.mutations,LGG.mutations,
+   									 LIHC.mutations,LUAD.mutations,LUSC.mutations,
+   									 OV.mutations,PAAD.mutations,PCPG.mutations,
+   									 PRAD.mutations,READ.mutations,SARC.mutations,
+   									 SKCM.mutations,STAD.mutations,STES.mutations,
+   									 TGCT.mutations,THCA.mutations,UCEC.mutations,
+   									 UCS.mutations,UVM.mutations,
                      # overwrite = TRUE,
                       compress="xz")
 ```

@@ -3,7 +3,7 @@
 \docType{data}
 \name{mutations}
 \alias{ACC.mutations}
-\alias{ACC.mutations,BLCA.mutations,BRCA.mutations,CESC.mutations,CHOL.mutations,COAD.mutations,COADREAD.mutations,DLBC.mutations,GBMLGG.mutations,GBM.mutations,HNSC.mutations,KICH.mutations,KIPAN.mutations,KIRC.mutations,KIRP.mutations,LAML.mutations,LGG.mutations,LIHC.mutations,LUAD.mutations,LUSC.mutations,OV.mutations,PAAD.mutations,PCPG.mutations,PRAD.mutations,READ.mutations,SARC.mutations,SKCM.mutations,STAD.mutations,STES.mutations,TGCT.mutations,THCA.mutations,UCEC.mutations,UCS.mutations,UVM.mutations}
+\alias{ACC.mutations,BLCA.mutations,BRCA.mutations,CESC.mutations,CHOL.mutations,COAD.mutations,COADREAD.mutations,DLBC.mutations,ESCA.mutations,GBMLGG.mutations,GBM.mutations,HNSC.mutations,KICH.mutations,KIPAN.mutations,KIRC.mutations,KIRP.mutations,LAML.mutations,LGG.mutations,LIHC.mutations,LUAD.mutations,LUSC.mutations,OV.mutations,PAAD.mutations,PCPG.mutations,PRAD.mutations,READ.mutations,SARC.mutations,SKCM.mutations,STAD.mutations,STES.mutations,TGCT.mutations,THCA.mutations,UCEC.mutations,UCS.mutations,UVM.mutations}
 \alias{BLCA.mutations}
 \alias{BRCA.mutations}
 \alias{CESC.mutations}
@@ -11,6 +11,7 @@
 \alias{COAD.mutations}
 \alias{COADREAD.mutations}
 \alias{DLBC.mutations}
+\alias{ESCA.mutations}
 \alias{GBM.mutations}
 \alias{GBMLGG.mutations}
 \alias{HNSC.mutations}
@@ -58,6 +59,8 @@ COAD.mutations
 COADREAD.mutations
 
 DLBC.mutations
+
+ESCA.mutations
 
 GBMLGG.mutations
 
@@ -116,7 +119,7 @@ Data frames with mutations data.
 }
 \description{
 Package provides mutations datasets from The Cancer Genome Atlas Project for all cohorts types from \url{http://gdac.broadinstitute.org/}.
-Data were downloaded using \link{RTCGA-package} and contain snapshots for the date: \code{2015-08-21}. The process is described here: \url{http://mi2-warsaw.github.io/RTCGA.data/}.
+Data were downloaded using \link{RTCGA-package} and contain snapshots for the date: \code{2015-11-01}. The process is described here: \url{http://mi2-warsaw.github.io/RTCGA.data/}.
 Use cases, examples and information about datasets in \pkg{RTCGA.data} family can be found here: \code{browseVignettes("RTCGA")}
 Mutations data format is explained here https://wiki.nci.nih.gov/display/TCGA/Mutation+Annotation+Format+(MAF)+Specification. There is extra one column with patients' barcodes.
 }
@@ -124,4 +127,3 @@ Mutations data format is explained here https://wiki.nci.nih.gov/display/TCGA/Mu
 \code{browseVignettes("RTCGA")}
 }
 \keyword{datasets}
-
