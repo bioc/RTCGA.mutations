@@ -1,7 +1,7 @@
 Package: RTCGA.mutations
 Type: Package
 Title: Mutations datasets from The Cancer Genome Atlas Project
-Version: 20151101.0.1
+Version: 20151101.0.2
 Date: 2016-04-26
 Author: Marcin Kosinski <m.p.kosinski@gmail.com>
 Maintainer: Marcin Kosinski <m.p.kosinski@gmail.com>
@@ -10,7 +10,7 @@ Description: Package provides mutations datasets from The Cancer Genome
         http://gdac.broadinstitute.org/. Mutations data format is
         explained here
         https://wiki.nci.nih.gov/display/TCGA/Mutation+Annotation+Format+(MAF)+Specification.
-        There is extra one column with patients' barcodes.
+        There is extra one column with patients' barcodes. Data from 2015-11-01 snapshot.
 License: GPL-2
 LazyData: TRUE
 Repository: Bioconductor
